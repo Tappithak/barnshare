@@ -151,8 +151,11 @@ nav{
     color: #0142e8;
 }
 
-
 .content-chart {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    color: #08066f;
+    translate: 1px -75px;
 }
+
+
