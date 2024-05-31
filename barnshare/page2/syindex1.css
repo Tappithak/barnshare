@@ -156,3 +156,38 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+@media (width <= 600px) {
+
+    .card-box,.boxseh,.prof h5::after{
+        display: none;
+    }
+
+    .imgf {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 158px;
+        z-index: 1;
+        right: 22px;
+    }
+
+    nav {
+        height: 230px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-left: 20px;
+        background-color: #fdb6a6;
+    }
+
+    nav h2 {
+        color: #fff;
+    }
+
+    
+    
+
+    
+}
