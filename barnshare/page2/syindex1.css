@@ -160,7 +160,8 @@ nav{
 
 .phim,
 .tmu1,
-.mauf{
+.mauf,
+.card-box.a1{
     display: none;
 }
 
@@ -171,9 +172,14 @@ nav{
     .mu,
     .card-box.bz h5,
     .mi2,
-    .mi3
+    .mi3,
+    .content-chart
     {
         display: none;
+    }
+
+    .phim{
+        display: block;
     }
 
     .imgf {
