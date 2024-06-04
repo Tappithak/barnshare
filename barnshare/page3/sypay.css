@@ -160,3 +160,95 @@ img.im1 {
 img.im3 {
     width: 113px;
 }
+
+
+@media (width <= 600px){
+.mu,
+.prof h5::after,
+.boxseh,
+.content{
+    display: none;
+}
+
+.prof {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgf {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    }
+
+.name h2 {
+    font-size: 20px;
+    color: #fff;
+    }
+
+.name h5 {
+    font-size: 18px;
+}
+
+nav {
+    height: 230px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 28px;
+    padding-left: 20px;
+    background-color: #fdb6a6;
+    align-items: flex-start;
+}
+
+.by{
+    background-color: #fdb6a6;
+}
+
+.body {
+    width: 100%;
+    height: 437px;
+    background: #fff;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    top: 230px;
+    right: 0px;
+}
+
+.paymant {
+    translate: 0px -194px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.paymant h2 {
+    color: #ff6340;
+    
+}
+
+lord-icon.out {
+    transform: rotate(180deg);
+}
+
+.mauf {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 50px;
+    border-top-left-radius: 20px;
+    box-shadow: 1px -4px 8px rgb(0 0 0 / 29%);
+    padding-top: 14px;
+    border-top-right-radius: 20px;
+    background: #ff937196;
+}
+
+.nam {
+    width: 22px;
+    height: 22px;
+    justify-content: flex-end;
+}
+
+}
