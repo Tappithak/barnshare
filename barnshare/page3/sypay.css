@@ -98,7 +98,7 @@ nav{
     width: calc(100% - 301px);
     height: 950px;
     background: #efefef;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 0px;
     position: absolute;
     top: 230px;
     right: 0px;
@@ -161,6 +161,10 @@ img.im3 {
     width: 113px;
 }
 
+.mauf {
+    display: none;
+}
+
 
 @media (width <= 600px){
 .mu,
@@ -214,6 +218,10 @@ nav {
     position: absolute;
     top: 230px;
     right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
 }
 
 .paymant {
