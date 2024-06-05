@@ -305,4 +305,103 @@ input#comt {
             align-items: center;
         }
 
+    .paymant {
+        translate: 15px -192px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 200px;
+        }
+    .paymant h2 {
+        color: #fff;
+    }
+    
+    .dmy-name {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+    }
+
+    .paymentp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 200px;
+    }
+
+    input#comt {
+        width: 199px;
+    }
+
+    .card-box.n3 {
+        width: 100%;
+        height: 455px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .body {
+    width: 100%;
+    height: 437px;
+    background: #efefef;
+    border-radius: 50px;
+    position: absolute;
+    top: 230px;
+    right: 0px;
+}
+
+.playh1 {
+    width: 124px;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    height: 51px;
+    border-radius: 20px 20px 0px 0px;
+    translate: -52px -57px;
+    background-color: #fff;
+}
+
+.playh1 h3 {
+    width: 100%;
+    color: #19AB01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+}
+
+.forname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    gap: 5px;
+}
+
+.dmy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    gap: 5px;
+}
+
+.meny{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 321px;
+    gap: 5px;
+}
+
+.payme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 321px;
+    gap: 5px;
+}
+
+
 }

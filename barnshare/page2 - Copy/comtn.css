@@ -301,5 +301,18 @@ lord-icon.out {
     translate: 0px -95px;
 }
 
+.playh1 {
+    width: 125px;
+    color: #19AB01;
+    height: 47px;
+    translate: -52px -62px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+    flex-direction: row;
+}
+
 }
 
