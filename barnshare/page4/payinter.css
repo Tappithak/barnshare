@@ -354,14 +354,32 @@ input#comt {
 .playh1 {
     width: 124px;
     height: 51px;
+    background-color: #c7c7c7;
     border-radius: 20px 20px 0px 0px;
-    translate: 68px -57px;
+}
+
+.nav-tap {
+    display: flex;
+    /* border: 1px solid; */
+    width: 100%;
+    translate: 0px -60px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.playh1.active {
     background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.playh1.active h3{
+    color: #19AB01;
+
 }
 
 .playh1 h3 {
     width: 100%;
-    color: #19AB01;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,7 +419,7 @@ input#comt {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 321px;
+    width: 350px;
     gap: 5px;
     translate: 19px 0px;
 }
